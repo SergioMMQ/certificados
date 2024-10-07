@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contenedor-certificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuye el espacio de forma equitativa */
+}
+
+.certificado {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajusta el ancho del certificado */
+    flex-grow: 1;body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    
+    h1, h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+    h2 {
+        margin-top: 50px;
+    }
+    
+    .contenedor-certificados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .certificado {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        flex-grow: 1;
+        flex-basis: 300px;
+    }
+    
+    .certificado h3 {
+        color: #0066cc;
+    }
+    
+    .certificado p {
+        color: #555;
+    }
+    
+    .certificado-img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    flex-basis: 300px; /* Mínimo tamaño para cada certificado */
+}
+ 
+.certificado h2 {
+    color: #0066cc;
+}
+
+.certificado p {
+    color: #555;
+}
+
+.certificado-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
