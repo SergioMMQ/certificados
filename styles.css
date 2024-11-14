@@ -75,7 +75,12 @@ l
 }
 
 .certificado h3 {
+    display: flex;
     margin-top: 0;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .certificado-img {
