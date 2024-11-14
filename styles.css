@@ -86,4 +86,5 @@ h1{
 .certificado-img {
   max-width: 100%;
   height: auto;
+  border-style: inset;
 }
