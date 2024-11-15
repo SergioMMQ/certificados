@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 20px;
 }
+h1{
+  text-shadow: #333;
+}
 
 h1, h2 {
   color: #333;
@@ -58,7 +61,6 @@ h1{
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
-
 
 .contenedor-certificados {
   display: grid;
